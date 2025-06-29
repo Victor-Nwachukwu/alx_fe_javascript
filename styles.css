@@ -1,0 +1,64 @@
+.container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(75,0,130);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0,255,255);
+    padding-top: 40px;
+}
+
+#categoryFilter {
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 85%;
+}
+
+#quoteDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0; 
+    font-size: 1.2em;
+}
+
+input {
+    margin: 20px 30px;
+    width: 40%;
+    padding: 8px;
+    background-color: sandybrown;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+button {
+    margin-bottom: 30px;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+button:hover {
+    color: sandybrown;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#status {
+    margin-left: 30px;
+    padding-bottom: 18px;
+}
